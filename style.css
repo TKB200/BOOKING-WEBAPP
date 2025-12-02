@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #0a2342;
+    /* Dark Blue */
+    --secondary-color: #ffffff;
+    /* White */
+    --accent-color: #3da9fc;
+    /* Lighter Blue for accents */
+    --text-color: #333;
+    --bg-light: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-color);
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--secondary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #0d2e57;
+    border-color: #0d2e57;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(10, 35, 66, 0.8), rgba(10, 35, 66, 0.8)), url('images/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.status-pending {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.status-approved {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.status-rejected {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.action-btn {
+    width: 110px;
+    /* Fixed width for consistent button size */
+}
+
+.date-col {
+    min-width: 120px;
+    /* Expanded space for Date column */
+}
