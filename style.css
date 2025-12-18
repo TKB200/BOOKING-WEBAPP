@@ -69,12 +69,10 @@ body {
     color: #dc3545;
     font-weight: bold;
 }
-
 .login-container {
     max-width: 400px;
     margin: 50px auto;
 }
-
 .action-btn {
     width: 110px;
     /* Fixed width for consistent button size */
@@ -83,4 +81,5 @@ body {
 .date-col {
     min-width: 120px;
     /* Expanded space for Date column */
+
 }
