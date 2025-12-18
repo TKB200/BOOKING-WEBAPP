@@ -1,10 +1,8 @@
 <?php
 include 'db_connect.php';
-
 // Check if column exists
 $check_col = "SHOW COLUMNS FROM bookings LIKE 'meeting_hall'";
 $result = $conn->query($check_col);
-
 if ($result->num_rows == 0) {
     // Add column if it doesn't exist
     $sql = "ALTER TABLE bookings ADD COLUMN meeting_hall VARCHAR(50) AFTER description";
@@ -16,6 +14,6 @@ if ($result->num_rows == 0) {
 } else {
     echo "Column meeting_hall already exists.";
 }
-
 $conn->close();
+
 ?>
