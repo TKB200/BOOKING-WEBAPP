@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #0a2342;
+    --primary-color: #0a2344;
     /* Dark Blue */
     --secondary-color: #ffffff;
     /* White */
-    --accent-color: #3da9fc;
+    --accent-color: #3da8fc;
     /* Lighter Blue for accents */
     --text-color: #333;
     --bg-light: #f8f9fa;
@@ -83,3 +83,4 @@ body {
     /* Expanded space for Date column */
 
 }
+
