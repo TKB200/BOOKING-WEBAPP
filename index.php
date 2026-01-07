@@ -34,10 +34,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
             exit();
         } else {
-            $error = "Invalid password.";
+            $error = "Invalid password. !";
         }
     } else {
-        $error = "No user found with that email.";
+        $error = "No user found with that email.try again ! ";
     }
 }
 ?>
@@ -107,5 +107,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 
 </html>
