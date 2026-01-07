@@ -21,7 +21,7 @@ $counts = ['pending' => 0, 'approved' => 0, 'rejected' => 0];
 while ($row = $count_result->fetch_assoc()) {
     $counts[$row['status']] = $row['count'];
 }
-
+// This is a comment
 // Fetch All Users for Dropdown
 $users_sql = "SELECT id, full_name FROM users WHERE role != 'admin'";
 $users_result = $conn->query($users_sql);
@@ -304,5 +304,6 @@ if ($selected_user_id) {
         <?php endif; ?>
     </script>
 </body>
+
 
 </html>
